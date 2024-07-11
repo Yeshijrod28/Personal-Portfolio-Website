@@ -112,7 +112,8 @@ p {
 .image img {
   align-content: center;
   margin-top: 0;
-  margin-left: 80px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .icons{
   text-align: center;
@@ -156,6 +157,19 @@ p {
 .image img {
   height: 350px;
   width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+@media(max-width:415px){
+.text-container button{
+  margin-left: 80px;
+}
+.icons{
+  margin-left: 10px;
+}
+.image img {
+  margin-left: 10px;
 }
 }
 </style>

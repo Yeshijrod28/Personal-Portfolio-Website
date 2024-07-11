@@ -45,7 +45,7 @@
 }
 .award {
   height: 150px;
-  width: 500px;
+  width: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +99,7 @@
   flex-direction: column;
 }
 .award {
-  width: 310px;
+  width: 300px;
 }
 .award p {
   font-size: 14px;

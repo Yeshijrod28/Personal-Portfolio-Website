@@ -143,4 +143,10 @@
   height: 160px;
 }
 }
+@media(max-width:415px){
+.project {
+  width: 300px;
+  height: 160px;
+}
+}
 </style>

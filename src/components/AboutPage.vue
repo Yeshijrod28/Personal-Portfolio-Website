@@ -207,4 +207,46 @@
 }
   
 }
+@media(max-width:415px){
+  .container2{
+    flex-direction: column-reverse;
+  }
+  .description{
+    margin-right: 50px;
+  }
+  .description h1 {
+  font-size: 18px;
+}
+.description p {
+  font-size: 16px;
+}
+.description ul {
+  margin-top: 12px;
+}
+.description ul li {
+  font-size: 16px;
+}
+.image img {
+  height: 350px;
+  width: 250px;
+  margin-left: 100px;
+  margin-top: 0;
+}
+.icon-container svg {
+  height: 15px;
+  width: 15px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+.icon-container label {
+  font-size: 14px;
+  margin-left: 6px;
+}
+.description h2{
+  font-size: 18px;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+  
+}
 </style>

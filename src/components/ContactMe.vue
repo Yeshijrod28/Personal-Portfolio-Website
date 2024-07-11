@@ -247,4 +247,29 @@ input[placeholder] {
 }
 }
 
+@media (max-width:415px) {
+    *{
+    margin-left: 45px;
+  }
+.symbol{
+  margin-left: -50px;
+}
+.symbol label {
+  font-size: 14px;
+}
+.form .input-field {
+  width: 280px;
+}
+.form .message {
+  width: 280px;
+}
+.footer .contact  a svg {
+  margin-left: 15px;
+}
+.footer button {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+}
+
 </style>

@@ -47,7 +47,7 @@ nav ul li {
     font-size:24px;
 }
 }
-@media(max-width:980px){
+@media(max-width:992px){
   *{
     margin-left: 5px;
   }
@@ -59,17 +59,29 @@ nav ul li {
     font-size:22px;
 }
 }
-
 @media(max-width:432px){
   *{
-    margin-left: 1px;
-  }
+    margin-left: 2px;
+}
 nav ul li {
-    margin-left: 1px;
+    margin-left: -8px;
     font-size: 12px;
 }
 .router-link.router-link-active {
     font-size:14px;
 }
 }
+@media(max-width:415px){
+  *{
+    margin-left:1px;
+}
+nav ul li {
+    margin-left: -4px;
+    font-size: 11px;
+}
+.router-link.router-link-active {
+    font-size:12px;
+}
+}
+
 </style>

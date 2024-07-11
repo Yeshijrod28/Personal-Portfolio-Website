@@ -161,6 +161,7 @@
 }
 .skills-container ul {
   margin-top: 30px;
+  position: absolute;
 }
 .skills-container ul li {
   font-size: 22px;
@@ -172,13 +173,14 @@
 .percentage {
   display: flex;
   flex-direction: column;
-  margin: 80px 20px 0 -50px;
+  margin: 50px 20px 0 -50px;
+  position: relative;
 }
 
 .percentage-container {
   position: relative;
   background-color: white;
-  margin: 22px 0;
+  margin: 22px auto;
   padding-left: 10px;
   height: 40px;
   width: 450px;
@@ -295,5 +297,23 @@
 .percentage{
   margin-left: -35px;
 }
+}
+@media(max-width:415px){
+  .education-box{
+    margin: 20px 5px;
+  }
+  .education-container .education-box h3 {
+  font-size: 14px; 
+}
+.education-container .education-box p {
+  font-size: 14px;
+}
+.percentage-container {
+  margin-left: -30px;
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 17px;
+}
+
 }
 </style>
