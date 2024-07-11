@@ -110,8 +110,6 @@ p {
   text-align: center;
 }
 .image img {
-  align-content: center;
-  margin-top: 0;
   margin-right: auto;
   margin-left: auto;
 }

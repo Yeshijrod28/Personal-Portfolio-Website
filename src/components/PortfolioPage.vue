@@ -173,7 +173,7 @@
 .percentage {
   display: flex;
   flex-direction: column;
-  margin: 50px 20px 0 -50px;
+  margin: 66px 20px 0 -50px;
   position: relative;
 }
 
@@ -225,6 +225,53 @@
 .skills-container ul li svg {
   height: 50px;
   width: 50px;
+}
+@media(max-width:1026px){
+  .container3{
+    display: flex;
+    flex-direction: column;
+ }
+  .education-box{
+    margin: 40px 40px;
+  }
+  .education-container{
+    margin-left: 0;
+  }
+  .education-container h1 {
+  margin-top: 5px;
+  font-size: 24px;
+  text-align: center;
+}
+.education-container .education-box h3 {
+  font-size: 16px; 
+}
+.education-container .education-box p {
+  font-size: 16px;
+}
+.skills-container{
+  margin-left: 80px;
+}
+.skills-container h1 {
+  font-size: 30px;
+  margin-left: 0;
+}
+.skills-container ul li {
+  font-size: 18px;
+}
+
+.percentage-container {
+  height: 36px;
+  width: 400px;
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+.skill {
+  height: 18px;
+}
+.skills-container ul li svg {
+  height: 40px;
+  width: 40px;
+}
 }
 @media(max-width:1026px){
   .container3{

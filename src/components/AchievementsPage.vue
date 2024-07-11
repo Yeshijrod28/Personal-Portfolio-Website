@@ -27,7 +27,7 @@
 
 <style scoped>
 * {
-  margin-left: 30px;
+  margin-left: 0px;
   overflow: hidden;
 }
 .header h1 {

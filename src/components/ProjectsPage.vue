@@ -70,7 +70,7 @@
     background-color: var(--tertiary-color);
     border: 2px solid #000;
     border-radius: 80px;
-    width: 600px;
+    width: 500px;
     height: 210px;
     margin-bottom: 30px;
     padding: 20px 40px 0 60px;
