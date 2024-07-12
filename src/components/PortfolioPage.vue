@@ -249,7 +249,7 @@
 .percentage-container {
   height: 2.2em;
   width: 22em;
-  margin: 1.6em auto;
+  margin: 1.7em auto;
 }
 .skills-container{
   margin: auto 3.5em;
@@ -283,7 +283,7 @@
   .percentage-container {
   height: 1.8em;
   width: 16em;
-  margin: 1.72em auto;
+  margin: 1.83em auto;
 }
 .skills-container{
   margin:auto 7em;
