@@ -163,6 +163,7 @@
   position: absolute;
 }
 .skills-container ul li {
+  position: relative;
   color: var(--text-color);
   list-style-type: none;
   margin: 2.2em auto;
@@ -178,7 +179,7 @@
 .percentage-container {
   position: relative;
   background-color: white;
-  margin: 1.55em auto;
+  margin: 1.7em auto;
   padding-left: 1em;
   height: 2.5em;
   width: 28em;
