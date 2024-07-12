@@ -1,5 +1,5 @@
 <template>
-    <div class="container6" id="contact">
+    <div class="container6">
         <div class="symbol">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
@@ -79,78 +79,69 @@
 </template>
 
 <style scoped>
-* {
-  margin-left: 50px;
-  overflow: hidden;
-}
 .container6 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  margin:auto 7em;
 }
 .symbol{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.symbol a{
-  margin: 0;
+  margin: 1em auto;
 }
 .symbol svg {
-  height: 30px;
-  width: 30px;
-  margin-top: 10px;
+  height: 1.875em;
+  width: 1.875em;
+  margin: 0.8em auto;
 }
 .symbol label {
   color: var(--secondary-color);
-  font-size: 46px;
-  margin-left: 0;
+  font-size: 2.8em;
 }
 .symbol p {
   color: var(--text-color);
-  font-size: 24px;
+  font-size: 1.3em;
 }
 .form {
-  margin: 70px auto 20px -180px;
+  margin: 5em 7em;
 }
 .form label {
   color: var(--text-color);
-  font-size: 24px;
+  font-size: 1.5em;
 }
 .form .input-field {
   border: 3px solid var(--secondary-color);
-  height: 56px;
-  width: 550px;
-  margin-bottom: 10px;
+  height: 3.5em;
+  width: 34rem;
+  margin:auto;
   color: var(--text-color);
-  font-size: 22px;
+  font-size: 1.3em;
 }
 .form .message {
   border: 3px solid var(--secondary-color);
-  width: 550px;
+  width: 34rem;
   color: var(--text-color);
-  font-size: 22px;
+  font-size: 1.3em;
 }
 
 input[placeholder] {
   text-align: center;
-  font-size: 24px;
-}
-.footer {
-  margin-left: 30px;
+  font-size: 1.3rem;
 }
 .footer .contact a svg {
-  margin-top: 20px;
-  margin-left: 22px;
-  height: 30px;
-  width: 30px;
+  margin: auto 1.2em;
+  height: 1.875rem;
+  width: 1.875rem;
 }
 .footer button {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--secondary-color);
   background-color: #000;
   border: 4px solid var(--secondary-color);
-  width: 200px;
-  height: 75px;
+  width: 12.5rem;
+  height: 4.7rem;
   border-radius: 40px;
 }
 button:hover {
@@ -159,117 +150,108 @@ button:hover {
   color: black;
   cursor: pointer;
 }
-
-@media (max-width:1026px) {
-  *{
-    margin-left: 60px;
+@media (max-width:1150px){
+  .form .input-field{
+    width:30rem;
   }
-.container6{
+  .form .message{
+    width: 30rem;
+  }
+}
+@media (max-width:1081px){
+  .container6 {
   display: flex;
   flex-direction: column-reverse;
 }
 .symbol{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  margin-left: -70px;
+  gap: 2em 2em;
 }
-.symbol svg {
-  height: 25px;
-  width: 25px;
-}
-.symbol label {
-  font-size: 20px;
-}
-.symbol p {
-  font-size: 16px;
-}
-.form label {
-  font-size: 16px;
-  margin-left: 50px;
+.form{
+  margin: 7em auto 2em 2em;
 }
 .form .input-field {
-  font-size: 16px;
+  width: 34rem;
 }
-.form .message {
-  font-size: 16px;
+.form .message{
+  width: 34rem;
 }
-
-input[placeholder] {
-  font-size: 16px;
+.symbol label{
+  font-size: 1.6rem;
 }
-.footer .contact svg {
-  margin-top: 40px;
-  height: 25px;
-  width: 25px;
-}
-.footer button {
-  font-size: 16px;
-  border: 3px solid var(--secondary-color);
-  width: 150px;
-  height: 50px;
+.symbol p{
+  font-size: 1.2rem;
 }
 }
-
-@media (max-width:432px) {
-    *{
-    margin-left: 50px;
+@media (max-width:807px){
+  .container6{
+    margin: auto 3em;
   }
-.symbol{
-  margin-left: -40px;
+  .form .input-field{
+    width:30rem;
+  }
+  .form .message{
+    width: 30rem;
+  }
+  .symbol{
+    margin: 2em auto
 }
-.symbol svg {
-  height: 20px;
-  width: 20px;
+.symbol label{
+  font-size: 1.2rem;
 }
-.symbol label {
-  font-size: 16px;
-}
-.symbol p {
-  font-size: 12px;
-}
-.form .input-field {
-  width: 300px;
-}
-.form .message {
-  font-size: 16px;
-  width: 300px;
-}
-.footer .contact  a svg {
-  margin-top: 10px;
-  margin-left: 0;
-  height: 20px;
-  width: 20px;
-}
-.footer button {
-  width: 100px;
-  height: 30px;
-  margin-left: 20px;
+.symbol p{
+  font-size: 1rem;
 }
 }
 
-@media (max-width:415px) {
-    *{
-    margin-left: 45px;
+@media (max-width:615px){
+  .container6{
+    margin: auto 2em;
   }
-.symbol{
-  margin-left: -50px;
-}
-.symbol label {
-  font-size: 14px;
-}
-.form .input-field {
-  width: 280px;
-}
-.form .message {
-  width: 280px;
-}
-.footer .contact  a svg {
-  margin-left: 15px;
-}
-.footer button {
-  margin-top: 10px;
-  margin-left: 60px;
-}
-}
+  .form label{
+    font-size: 1rem;
+  }
+  .form .input-field{
+    width:24rem;
+    font-size: 1rem;
+  }
+  .form .message{
+    width: 24rem;
+    font-size: 1rem;
+  }
+  .footer .contact a svg{
+    margin: auto 1rem;
+  }
+  .footer button{
+    font-size: 1em;
+    width: 8rem;
+    height: 3rem;
+  }
+  }
+  @media (max-width:485px){
+    .container6{
+      margin: auto 0;
+    }
+  .form .input-field{
+    width:18rem;
+  }
+  .form .message{
+    width: 18rem;
+  }
+  .symbol{
+    margin: auto 1em;
+  }
+  .footer .contact a svg{
+    margin: auto 0.5rem;
+    height: 1.5rem;
+  }
+  .footer button{
+    font-size: 1em;
+    width: 7rem;
+    height: 2.4rem;
+  }
+  }
+  
 
 </style>

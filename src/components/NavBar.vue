@@ -22,8 +22,8 @@ nav {
 }
 nav ul li {
     display: inline;
-    margin: 0 33px;
-    font-size: 30px;
+    margin: auto 1em;
+    font-size: 1.8em;
 }
 nav ul li .router-link {
     color: var(--text-color);
@@ -32,56 +32,39 @@ nav ul li .router-link {
 .router-link.router-link-active {
     color: var(--secondary-color);
     font-style: italic;
-    font-size: 34px;
+    font-size: 1.1em;
 }
 nav .router-link:hover{
     background-color:var(--tertiary-color) ;
 }
-
-@media(max-width:1220px){
+@media (max-width:1066px) {
 nav ul li {
-    margin: 0 20px;
-    font-size: 22px;
-}
-.router-link.router-link-active {
-    font-size:24px;
+    margin: auto 0.8em;
+    font-size: 1.6em;
 }
 }
-@media(max-width:992px){
-  *{
-    margin-left: 5px;
-  }
+@media (max-width:904px) {
 nav ul li {
-    margin: 0 17px;
-    font-size: 18px;
-}
-.router-link.router-link-active {
-    font-size:22px;
+    margin: auto 0.6em;
+    font-size: 1.4em;
 }
 }
-@media(max-width:432px){
-  *{
-    margin-left: 2px;
-}
+@media (max-width:738px) {
 nav ul li {
-    margin-left: -8px;
-    font-size: 12px;
-}
-.router-link.router-link-active {
-    font-size:14px;
+    margin: auto 0.4em;
+    font-size: 1.2em;
 }
 }
-@media(max-width:415px){
-  *{
-    margin-left:1px;
-}
+@media (max-width:600px) {
 nav ul li {
-    margin-left: -4px;
-    font-size: 11px;
-}
-.router-link.router-link-active {
-    font-size:12px;
+    margin: auto 0.5em;
+    font-size: 1em;
 }
 }
-
+@media (max-width:513px) {
+nav ul li {
+    margin: auto 0.3em;
+    font-size: .8em;
+}
+}
 </style>

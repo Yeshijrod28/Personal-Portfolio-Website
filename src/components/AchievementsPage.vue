@@ -26,37 +26,36 @@
 </template>
 
 <style scoped>
-* {
-  margin-left: 0px;
+#achievements{
   overflow: hidden;
 }
 .header h1 {
   color: var(--secondary-color);
-  font-size: 34px;
+  font-size: 2em;
   text-align: center;
-  margin: 80px 0 0 -50px;
-
+  margin: 2em auto;
 }
 .container5 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px 0;
-  margin: 50px 150px;
+  gap: 3em 2em;
+  margin: 4em 7em;
 }
 .award {
-  height: 150px;
-  width: 480px;
+  height: 9.375em;
+  width: 30em;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 4px solid var(--secondary-color);
   border-radius: 100px;
-  padding: 0 40px;
+  padding: 0 2.5em;
   cursor: pointer;
 }
 .award p {
-  font-size: 20px;
+  font-size: 1.2em;
   color: var(--text-color);
+  text-align: center;
 }
 .award:hover {
   background-color: var(--tertiary-color);
@@ -64,46 +63,25 @@
 .award:hover p {
   background-color: var(--tertiary-color);
 }
-
-@media(max-width:1024px){
-  *{
-    margin-left: 0;
+@media (max-width:1300px){
+  .container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-.header h1 {
-  font-size: 24px;
-  text-align: center;
-  margin-left: -40px;
 }
-.container5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
+@media (max-width:612px){
+  .award{
+    width: 20em;
+  }
 }
-.award {
-  height: 130px;
-  width: 500px;
-  padding:0 10px 0 40px;
+@media (max-width:442px){
+  .award{
+    width: 16em;
+  }
+  .award p{
+    font-size: 1em;
+  }
 }
-.award p {
-  font-size: 16px;
-}
-}
-@media(max-width:432px){
-.header h1 {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-.container5 {
-  display: flex;
-  flex-direction: column;
-}
-.award {
-  width: 300px;
-}
-.award p {
-  font-size: 14px;
-  padding: 0 20px;
-}
-}
+
 </style>

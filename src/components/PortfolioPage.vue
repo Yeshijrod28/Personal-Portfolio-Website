@@ -1,5 +1,5 @@
 <template>
-    <div class="container3" id="portfolio">
+    <div class="container3">
         <div class="education-container">
             <h1>EDUCATION</h1>
             <div class="education-box">
@@ -125,65 +125,63 @@
   display: flex;
 }
 .education-container h1 {
-  font-size: 34px;
+  font-size: 2.1rem;
   color: var(--secondary-color);
   text-align: center;
 }
 
 .education-container {
-  margin: 80px 0 0 200px;
+  margin: 5em;
 }
 .education-box {
   border: solid 3px var(--secondary-color);
   border-radius: 60px;
-  margin: 100px 0;
-  padding: 20px;
+  margin: 6.35rem auto;
+  padding: 1.25rem;
   text-align: justify;
 }
 .education-container .education-box h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--text-color);
   text-align: center;
 }
 .education-container .education-box p {
-  font-size: 22px;
+  font-size: 1.375;
   color: var(--secondary-color);
   text-align: center;
 }
 
 .skills-container {
-  margin-top: 80px;
+  margin: 5rem 2em;
 }
 .skills-container h1 {
-  padding-left: 70px;
-  font-size: 34px;
+  font-size: 2.2em;
   color: var(--secondary-color);
+  margin-left: auto;
 }
 .skills-container ul {
-  margin-top: 30px;
   position: absolute;
 }
 .skills-container ul li {
-  font-size: 22px;
   color: var(--text-color);
   list-style-type: none;
-  margin: 0 0 27px 40px;
+  margin: 2.2em auto;
 }
 
 .percentage {
   display: flex;
   flex-direction: column;
-  margin: 66px 20px 0 -50px;
+  margin: 4em auto;
   position: relative;
 }
 
 .percentage-container {
   position: relative;
   background-color: white;
-  margin: 22px auto;
-  padding-left: 10px;
-  height: 40px;
-  width: 450px;
+  margin: 1.55em auto;
+  padding-left: 1em;
+  height: 2.5em;
+  width: 28em;
   border-radius: 40px;
   z-index: 0;
 }
@@ -193,10 +191,10 @@
   align-items: center;
   overflow: hidden;
   background-color: var(--secondary-color);
-  height: 20px;
+  height: 1.25em;
   border-radius: 30px;
   margin-left: 0;
-  margin-top: 9px;
+  margin-top: 0.6em;
 }
 .skill.html {
   width: 90%;
@@ -223,144 +221,101 @@
   width: 90%;
 }
 .skills-container ul li svg {
-  height: 50px;
-  width: 50px;
+  height: 3.2em;
+  width: 3.2em;
 }
-@media(max-width:1026px){
-  .container3{
-    display: flex;
-    flex-direction: column;
- }
-  .education-box{
-    margin: 40px 40px;
-  }
+@media(max-width: 1200px){
+  .container3 {
+  flex-direction: column;
+}
+.education-box {
+  margin: 3rem auto;
+}
+.skills-container{
+  margin: 0 auto;
+}
+}
+@media(max-width: 745px){
   .education-container{
-    margin-left: 0;
+    margin: 3em;
   }
-  .education-container h1 {
-  margin-top: 5px;
-  font-size: 24px;
-  text-align: center;
-}
 .education-container .education-box h3 {
-  font-size: 16px; 
+  font-size: 1em;
 }
 .education-container .education-box p {
-  font-size: 16px;
+  font-size: 1em;
+}
+.percentage-container {
+  height: 2.2em;
+  width: 22em;
+  margin: 1.6em auto;
 }
 .skills-container{
-  margin-left: 80px;
+  margin: auto 3.5em;
 }
-.skills-container h1 {
-  font-size: 30px;
-  margin-left: 0;
-}
-.skills-container ul li {
-  font-size: 18px;
-}
-
-.percentage-container {
-  height: 36px;
-  width: 400px;
-  margin-bottom: 24px;
-  margin-top: 12px;
+.skills-container ul {
+  margin: auto 3em;
 }
 .skill {
-  height: 18px;
+  height: 1.1em;
+  margin-top: 0.5em;
 }
 .skills-container ul li svg {
-  height: 40px;
-  width: 40px;
+  height: 3em;
+  width: 3em;
 }
 }
-@media(max-width:1026px){
-  .container3{
-    display: flex;
-    flex-direction: column;
- }
-  .education-box{
-    margin: 40px 40px;
-  }
+@media(max-width: 566px){
   .education-container{
-    margin-left: 0;
+    margin: 1.35em;
   }
-  .education-container h1 {
-  margin-top: 5px;
-  font-size: 24px;
-  text-align: center;
-}
-.education-container .education-box h3 {
-  font-size: 16px; 
-}
-.education-container .education-box p {
-  font-size: 16px;
-}
-.skills-container{
-  margin-left: 80px;
-}
-.skills-container h1 {
-  font-size: 30px;
-  margin-left: 0;
-}
-.skills-container ul li {
-  font-size: 18px;
-}
-
-.percentage-container {
-  height: 36px;
-  width: 400px;
-  margin-bottom: 24px;
-  margin-top: 12px;
-}
-.skill {
-  height: 18px;
-}
-.skills-container ul li svg {
-  height: 40px;
-  width: 40px;
-}
-}
-@media(max-width:432px){
   .education-box{
-    margin: 20px 10px;
-  }
-
-.percentage-container {
-  height: 30px;
-  width: 240px;
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-.skill {
-  height: 15px;
-}
-.skills-container{
-  margin-left: 0;
-}
-.skills-container ul li svg {
-  height: 30px;
-  width: 30px;
-}
-.percentage{
-  margin-left: -35px;
-}
-}
-@media(max-width:415px){
-  .education-box{
-    margin: 20px 5px;
+    width: 20rem;
+    padding: 1em;
   }
   .education-container .education-box h3 {
-  font-size: 14px; 
+  font-size: 0.8em;
 }
 .education-container .education-box p {
-  font-size: 14px;
+  font-size: 0.8em;
 }
-.percentage-container {
-  margin-left: -30px;
-  width: 200px;
-  margin-top: 15px;
-  margin-bottom: 17px;
+  .percentage-container {
+  height: 1.8em;
+  width: 16em;
+  margin: 1.72em auto;
+}
+.skills-container{
+  margin:auto 7em;
+}
+.skills-container ul{
+  margin: auto ;
+}
+.skill {
+  height: .9em;
+  margin-top: 0.4em;
+}
+.skills-container ul li svg {
+  height: 2.8em;
+  width: 2.8em;
+}
+.percentage{
+  margin-left:-3em;
+}
 }
 
+@media (max-width: 470px){
+  .education-box{
+    width: 18rem;
+  }
+  .percentage-container {
+  width: 12em;
 }
+.skills-container{
+  margin:auto 4em;
+}
+.skills-container ul{
+  margin: auto ;
+}
+}
+
 </style>

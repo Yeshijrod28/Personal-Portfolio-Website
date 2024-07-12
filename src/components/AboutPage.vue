@@ -1,5 +1,5 @@
 <template>
-    <div class="container2" id="about">
+    <div class="container2">
         <div class="image">
             <img src="../assets/hero2.png" alt="yeshi dorji" />
         </div>
@@ -63,190 +63,64 @@
 </template>
 
 <style scoped>
-* {
-  margin-left: 50px;
-}
 .container2 {
   display: flex;
+  align-items: center;
+  margin-left: 7rem;
 }
 .container2 .description {
-  margin: 80px 40px 0 50px;
+  margin: 2rem;
 }
 .description h1 {
   color: var(--secondary-color);
-  font-size: 32px;
+  font-size: 2em;
 }
 .description p {
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 1.125em;
 }
 .description ul {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 1.5em auto;
 }
 .description ul li {
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 1.25em;
   list-style-type: none;
-  margin-left: 0;
 }
 .image img {
-  height: 600px;
-  width: 437px;
-  margin-top: 40px;
+  height: 37em;
+  width: 27em;
+  margin: 2em;
 }
 .description h2 {
   color: var(--secondary-color);
-  font-size: 34px;
-  margin-left: 50px;
+  font-size: 2em;
 }
 .icon-container svg {
   color: var(--secondary-color);
-  height: 30px;
-  width: 30px;
-  margin-bottom: 10px;
-  margin-left: 0;
+  height: 2em;
+  width: 2em;
 }
 .icons {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20px;
-  margin-left: 25px;
 }
 .icon-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 0;
 }
 .icon-container label {
-  font-size: 18px;
-  text-align: center;
-  margin-left: 20px;
+  font-size:1em;
+  margin-right: 0.5em;
   color: var(--text-color);
 }
-@media(max-width:1026px){
-  *{
-    margin-left: 0;
-  }
-  .description{
-    margin-left: 0;
-  }
-  .description h1 {
-  font-size: 28px;
-}
-.description p {
-  font-size: 16px;
-}
-.description ul {
-  margin-top: 16px;
-}
-.description ul li {
-  font-size: 16px;
+@media (max-width: 1000px){
+  .container2 {
+    flex-direction: column;
 }
 .image img {
-  height: 500px;
-  width: 350px;
+  height: 20em;
+  width: 16em;
 }
-.icons{
-  margin-left: -10px;
-}
-.icon-container svg {
-  height: 20px;
-  width: 20px;
-  margin: 0 0 8px 0px;
-}
-.icon-container label {
-  font-size: 10px;
-  margin-left: 12px;
-}
-.description h2{
-  font-size: 24px;
-  margin-left: 0;
-}
-}
-@media(max-width:432px){
-  .container2{
-    flex-direction: column-reverse;
-  }
-  .description{
-    margin-right: 50px;
-  }
-  .description h1 {
-  font-size: 18px;
-}
-.description p {
-  font-size: 16px;
-}
-.description ul {
-  margin-top: 12px;
-}
-.description ul li {
-  font-size: 16px;
-}
-.image img {
-  height: 350px;
-  width: 250px;
-  margin-left: 100px;
-  margin-top: 0;
-}
-.icon-container svg {
-  height: 15px;
-  width: 15px;
-  margin-left: 8px;
-  margin-bottom: 10px;
-}
-.icon-container label {
-  font-size: 14px;
-  margin-left: 6px;
-}
-.description h2{
-  font-size: 18px;
-  margin-left: 0;
-  margin-bottom: 10px;
-}
-  
-}
-@media(max-width:415px){
-  .container2{
-    flex-direction: column-reverse;
-  }
-  .description{
-    margin-right: 50px;
-  }
-  .description h1 {
-  font-size: 18px;
-}
-.description p {
-  font-size: 16px;
-}
-.description ul {
-  margin-top: 12px;
-}
-.description ul li {
-  font-size: 16px;
-}
-.image img {
-  height: 350px;
-  width: 250px;
-  margin-left: 100px;
-  margin-top: 0;
-}
-.icon-container svg {
-  height: 15px;
-  width: 15px;
-  margin-left: 8px;
-  margin-bottom: 10px;
-}
-.icon-container label {
-  font-size: 14px;
-  margin-left: 6px;
-}
-.description h2{
-  font-size: 18px;
-  margin-left: 0;
-  margin-bottom: 10px;
-}
-  
 }
 </style>

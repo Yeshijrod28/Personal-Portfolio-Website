@@ -1,5 +1,5 @@
 <template>
-    <div class="container" id="home">
+    <div class="container">
         <div class="text-container">
             <h4>Hi, I am</h4>
             <h1>YESHI DORJI</h1>
@@ -47,44 +47,47 @@ const downloadResume = () => {
 </script>
 
 <style scoped>
+*{
+  margin-left: 1rem;
+}
+.text-container{
+  align-content: center;
+}
 h4 {
-  font-size: 42px;
+  font-size: 2.6em;
   color: var(--text-color);
-  margin-top: 70px;
 }
 h1 {
-  font-size:86px;
+  font-size:5.2em;
   color: var(--secondary-color);
 }
 p {
-  font-size: 32px;
+  font-size: 2em;
   color: var(--text-color);
 }
 .container {
   display: flex;
   justify-content: center;
-  margin-left: 40px;
 }
 .image img {
-  margin: 40px 0;
-  height: 657px;
-  width: 593px;
+  height:41em;
+  width: 37em;
+  margin: 1.5rem 2rem;
 }
 .icons svg {
   color: var(--secondary-color);
-  margin-left: 0;
-  margin-right: 25px;
-  height: 30px;
-  width: 30px;
+  margin: auto 0.7em;
+  height: 1.8em;
+  width: 1.8em;
 }
 .text-container button {
-  height: 70px;
-  width: 300px;
+  height: 4.375rem;
+  width: 18.375rem;
   border: 3px solid var(--secondary-color);
   color: var(--secondary-color);
-  font-size: 24px;
+  font-size: 1.5em;
   border-radius: 40px;
-  margin-top: 25px;
+  margin-top: 1rem;
   cursor: pointer;
 }
 button:hover {
@@ -92,82 +95,63 @@ button:hover {
   background-color: var(--secondary-color);
   color: #000;
 }
-@media(max-width:1026px){
-  .container{
-    flex-direction: column;
-    
-  }
-  h4 {
-    text-align: center;
-    font-size: 24px;
-}
-h1 {
-  font-size: 34px;
-  text-align: center;
-}
-p {
-  font-size: 16px;
-  text-align: center;
-}
-.image img {
-  margin-right: auto;
-  margin-left: auto;
-}
-.icons{
-  text-align: center;
-}
-.icons svg {
-  height: 20px;
-  width: 20px;
-}
-.text-container button {
-  font-size: 16px;
-  margin-left: 280px;
-  width: 200px;
-  height: 60px;
-}
-}
-@media(max-width:432px){
-.container{
-  flex-direction: column;
-}
-.text-container button{
-  width: 150px;
-  height: 60px;
-  font-size: 16px;
-  margin-left: 120px;
-}
+@media (max-width: 1364PX) {
 h4 {
-  text-align: center;
-  font-size: 24px;
+  font-size: 2.2em;
 }
 h1 {
-  font-size: 28px;
-  text-align: center;
+  font-size:4.8em;
 }
 p {
-  font-size: 16px;
-  text-align: center;
-}
-.icons{
-  margin-left: 30px;
+  font-size: 1.6em;
 }
 .image img {
-  height: 350px;
-  width: 280px;
-  margin-right: auto;
-  margin-left: auto;
+  height:36em;
+  width: 32em;
 }
 }
-@media(max-width:415px){
-.text-container button{
-  margin-left: 80px;
+@media (max-width: 1234px) {
+h4 {
+  font-size: 2.2em;
 }
-.icons{
-  margin-left: 10px;
+h1 {
+  font-size:4.8em;
+}
+p {
+  font-size: 1.6em;
 }
 .image img {
-  margin-left: 10px;
+  height:36em;
+  width: 32em;
+}
+}
+@media (max-width:1154px) {
+  h4 {
+  font-size: 1.8em;
+}
+h1 {
+  font-size:4em;
+}
+p {
+  font-size: 1.2em;
+}
+.image img {
+  height:32em;
+  width: 28em;
+} 
+}
+@media (max-width: 1010px) {
+h4 {
+  margin-top: 4rem;
+}
+.container {
+  flex-direction: column;
+  align-items: center;
+}
+.image img{
+  margin-left: 4em;
+  height: 26em;
+  width: 20em;
 }
 }
 </style>
