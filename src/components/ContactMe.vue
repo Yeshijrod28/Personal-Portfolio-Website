@@ -213,11 +213,11 @@ button:hover {
     font-size: 1rem;
   }
   .form .input-field{
-    width:24rem;
+    width:23rem;
     font-size: 1rem;
   }
   .form .message{
-    width: 24rem;
+    width: 23rem;
     font-size: 1rem;
   }
   .footer .contact a svg{

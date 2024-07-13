@@ -47,9 +47,6 @@ const downloadResume = () => {
 </script>
 
 <style scoped>
-*{
-  margin-left: 1rem;
-}
 .text-container{
   align-content: center;
 }
@@ -143,15 +140,41 @@ p {
 @media (max-width: 1010px) {
 h4 {
   margin-top: 4rem;
+  font-size: 1.2em;
+}
+h1{
+  font-size: 2.3em;
+}
+p{
+  font-size: 1em;
 }
 .container {
   flex-direction: column;
   align-items: center;
 }
 .image img{
-  margin-left: 4em;
+  margin-left: -2em;
   height: 26em;
   width: 20em;
+}
+.text-container button{
+  width: 11em;
+  height: 3em;
+  font-size: 1em;
+}
+}
+@media (max-width: 720px) {
+.image img{
+  height: 24em;
+  width: 18em;
+}
+p{
+  font-size: 0.8em;
+}
+.icons svg {
+  margin: auto 0.5em;
+  height: 1.5em;
+  width: 1.5em;
 }
 }
 </style>
