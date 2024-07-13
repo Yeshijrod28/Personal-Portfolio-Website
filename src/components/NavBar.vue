@@ -64,7 +64,7 @@ nav ul li {
 @media (max-width:513px) {
 nav ul li {
     margin: auto 0.3em;
-    font-size: .8em;
+    font-size: .75em;
 }
 }
 </style>

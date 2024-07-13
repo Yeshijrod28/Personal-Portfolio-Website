@@ -172,14 +172,14 @@
 .percentage {
   display: flex;
   flex-direction: column;
-  margin: 4em auto;
+  margin: 4.3em auto;
   position: relative;
 }
 
 .percentage-container {
   position: relative;
   background-color: white;
-  margin: 1.7em auto;
+  margin: 1.65em auto;
   padding-left: 1em;
   height: 2.5em;
   width: 28em;
@@ -285,6 +285,9 @@
   width: 16em;
   margin: 1.83em auto;
 }
+.skills-container ul li {
+  margin: 1.8em auto;
+}
 .skills-container{
   margin:auto 7em;
 }
@@ -301,6 +304,9 @@
 }
 .percentage{
   margin-left:-3em;
+}
+.percentage-container{
+  margin: 1.58em auto;
 }
 }
 
