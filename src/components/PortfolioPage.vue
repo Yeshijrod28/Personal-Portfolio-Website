@@ -314,6 +314,9 @@
   .education-box{
     width: 18rem;
   }
+  .percentage{ 
+    margin: 3em -3em;
+  }
   .percentage-container {
   width: 12em;
 }
