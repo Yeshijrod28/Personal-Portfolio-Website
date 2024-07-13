@@ -320,9 +320,6 @@
 .skills-container{
   margin:auto 4em;
 }
-.skills-container ul{
-  margin: auto ;
-}
 }
 
 </style>
