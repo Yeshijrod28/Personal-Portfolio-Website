@@ -189,10 +189,10 @@ button:hover {
     margin: auto 3em;
   }
   .form .input-field{
-    width:30rem;
+    width:29rem;
   }
   .form .message{
-    width: 30rem;
+    width: 29rem;
   }
   .symbol{
     margin: 2em auto
@@ -207,17 +207,17 @@ button:hover {
 
 @media (max-width:615px){
   .container6{
-    margin: auto 2em;
+    margin: auto 1em;
   }
   .form label{
     font-size: 1rem;
   }
   .form .input-field{
-    width:23rem;
+    width:24rem;
     font-size: 1rem;
   }
   .form .message{
-    width: 23rem;
+    width: 24rem;
     font-size: 1rem;
   }
   .footer .contact a svg{

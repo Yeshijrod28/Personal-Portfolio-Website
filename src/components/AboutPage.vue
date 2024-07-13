@@ -123,4 +123,9 @@
   width: 16em;
 }
 }
+@media(max-width:720px){
+  .container2{
+    margin-left: 5em;
+  }
+}
 </style>
